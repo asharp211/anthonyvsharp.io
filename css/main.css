@@ -1,0 +1,50 @@
+body{
+    background: #fff5f5;
+}
+
+/* Container */
+.profile {
+    margin: 0 0 20px;
+}
+
+/* Profile Tabs*/
+.profile-tabs{
+    float: none;
+    width: 100%;
+    height: 160%;
+    padding: 10px;
+}
+
+/* Column Profile*/
+.column-profile{
+    float: left;
+    width: 100%;
+    padding: 10px;
+    height: 300px;
+    
+}
+
+/* User Profile*/
+.user-profile-pic img {
+    float:none;
+    margin: 0 auto;
+    width: 10%;
+    height: 10%;
+    border-radius: 50%;
+}
+
+.profile-title-container{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.profile-title-name {
+    text-align: left;
+    margin-top: 20px;
+    font-size: 32px;
+    font-weight: 600;
+}
+.current-school-title{
+    font-size: 18px;
+    font-weight: 400;
+}
