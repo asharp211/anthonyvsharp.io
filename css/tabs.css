@@ -2,7 +2,7 @@
 .tab {
     overflow: hidden;
     border: 1px solid #F5FFFF;
-    background-color: ##F5FFFF;
+    /*background-color: #F5FFFF;*/
   }
   
   /* Style the buttons that are used to open the tab content */
