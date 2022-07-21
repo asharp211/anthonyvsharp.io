@@ -3,7 +3,7 @@ body{
 }
 
 /* Container */
-.profile {
+.container {
     margin: 0 0 20px;
 }
 
@@ -11,41 +11,56 @@ body{
 .profile-tabs{
     float: none;
     width: 100%;
-    height: 160%;
-    padding: 10px;
 }
 
 /* Column Profile*/
 .column-profile{
     float: left;
     background-color: blue;
-    width: 100%;
-    padding: 10px;
-    height: 300px;
+
+    width: 33.33%;
+    padding: 2px 3px 5px 5px;
+    height: 100%;
     
 }
 
 /* User Profile*/
 .user-profile-pic img {
-    float:none;
+    float: none;
     margin: 0 auto;
-    width: 10%;
-    height: 10%;
+    width: 75%;
+    height: 100%;
     border-radius: 50%;
 }
 
 .profile-title-container{
     text-align: center;
-    margin-top: 20px;
+    margin-top: 32px;
 }
 
 .profile-title-name {
-    text-align: left;
+    text-align: center;
     margin-top: 20px;
     font-size: 32px;
     font-weight: 600;
 }
+
+.degree-status{
+    font-size: 18px;
+    font-weight: 400;
+}
 .current-school-title{
     font-size: 18px;
     font-weight: 400;
+}
+
+.left-column{
+    float: left;
+    width: 66%;
+    padding: 2px 3px 4px 5px;
+    height: 100%;
+}
+
+.tabs{
+    float: left;
 }
