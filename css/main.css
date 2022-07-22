@@ -16,8 +16,7 @@ body{
 /* Column Profile*/
 .column-profile{
     float: left;
-    background-color: blue;
-
+    border-style: solid;
     width: 33.33%;
     padding: 2px 3px 5px 5px;
     height: 100%;
