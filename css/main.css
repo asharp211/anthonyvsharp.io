@@ -18,16 +18,16 @@ body{
     float: left;
     border-style: solid;
     width: 33.33%;
-    padding: 2px 3px 5px 5px;
+    padding: 20px 3px 5px 5px;
     height: 100%;
     
 }
 
 /* User Profile*/
 .user-profile-pic img {
-    float: none;
-    margin: 0 auto;
-    width: 75%;
+    display: block;    
+    margin: auto auto;
+    width: 50%;
     height: 100%;
     border-radius: 50%;
 }
@@ -42,11 +42,6 @@ body{
     margin-top: 20px;
     font-size: 32px;
     font-weight: 600;
-}
-
-.degree-status{
-    font-size: 18px;
-    font-weight: 400;
 }
 .current-school-title{
     font-size: 18px;
