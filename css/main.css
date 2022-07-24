@@ -48,6 +48,10 @@ body{
     font-weight: 400;
 }
 
+.current{
+    font-weight:700
+}
+
 .left-column{
     float: left;
     width: 66%;
