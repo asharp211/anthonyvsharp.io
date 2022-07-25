@@ -4,7 +4,9 @@ body{
 
 /* Container */
 .container {
-    margin: 0 0 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
 }
 
 /* Profile Tabs*/
@@ -18,13 +20,10 @@ body{
     float: left;
     border-style: solid;
     width: 33.33%;
-    padding: 30px 3px 5px 5px;
+    padding: 30px;
     height: 100%;    
 }
 
-.glyphicon{
-    margin-right: 15px;
-}
 
 /* User Profile*/
 .user-profile-pic img {
@@ -47,22 +46,17 @@ body{
     font-weight: 600;
 }
 .current-school-title{
-    font-size: 18px;
+    font-size: 12px;
     font-weight: 400;
 }
 
-.current{
-    font-weight:700
-}
-
-.left-column{
+.mid-column{
     float: left;
-    width: 66%;
-    padding: 2px 3px 4px 5px;
+    border-style: solid;
+    width: 66.67%;
     height: 100%;
 }
 
-.tabs{
-    float: center;
-    padding-left: 30px;
+.profile-content{
+    border-style: solid;
 }

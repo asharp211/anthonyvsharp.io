@@ -33,3 +33,14 @@
     border:  #fff5f5;
     border-top: none;
   }
+  
+.tabs{
+  float: center;
+  padding-left: 30px;
+}
+.current{
+  font-weight:700
+}
+.glyphicon{
+  margin-right: 20px;
+}
