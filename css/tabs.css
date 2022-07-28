@@ -2,6 +2,7 @@
 .tab {
     overflow: hidden;
     border: 1px solid #F5FFFF;
+    font-size: 18px;
     /*background-color: #F5FFFF;*/
   }
   
@@ -33,11 +34,9 @@
     border:  #fff5f5;
     border-top: none;
   }
-  
-.tabs{
-  float: center;
-  padding-left: 30px;
-}
+
+
+
 .current{
   font-weight:700
 }
