@@ -1,5 +1,5 @@
 body{
-    background: #fff5f5;
+    background: #F8F8F8;
 }
 
 /* Container */
@@ -46,14 +46,4 @@ body{
 .current-school-title{
     font-size: 12px;
     font-weight: 400;
-}
-
-.mid-column{
-    float: left;
-    width: 70%;
-    height: 100%;
-    background-color: #F5FFFF;
-}
-
-.profile-content{
 }
