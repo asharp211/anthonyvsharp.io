@@ -52,13 +52,26 @@
   
   font-size: 60px;
 }
+.mid-column{
+  padding: 10px
+}
+
 .profile-content{  
   border-radius: 10px;  
-  background-color: white;
-  padding: 10px 10px 10px 10px;
+  background-color: #F8F8F8;  
+  font-size: 16px;
 }
 
 .project-tile{
   border-radius: 10px;  
+  padding: 10px 10px 10px 10px;
   background-color: white;
+}
+
+.image-holder img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px 0px 10px 0px;
+  width: 40%;
 }
