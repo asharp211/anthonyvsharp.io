@@ -39,6 +39,7 @@
   float: left;
   width: 70%;
   height: 100%;
+  /*padding-top: 20px;*/
 }
 
 .current{
@@ -56,6 +57,7 @@
 }
 
 .profile-content{  
+  padding-top: 10px;
   border-radius: 10px;  
   background-color: #F8F8F8;  
   font-size: 16px;
@@ -71,6 +73,6 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding: 0px 0px 10px 0px;
+  padding: 0px 0px 5px 0px;
   width: 40%;
 }
