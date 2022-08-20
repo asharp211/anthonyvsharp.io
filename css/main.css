@@ -59,14 +59,13 @@ body{
     font-weight: 400;
 }
 
-
-
-@media only screen and (max-width:800px) {
+@media only screen and (max-width:1000px) {
     /* For tablets: */
     .column-profile {
         width: 80%;
         padding: 0%;
         padding-top: 30px;
+        margin: auto auto;
     }
     .mid-column {
         width: 100%;
