@@ -13,169 +13,179 @@
 	<link href="css/main.css" rel="stylesheet" type="text/css"/>
 	<link href="css/content.css " rel="stylesheet" type="text/css"/>
 	<script src="javascript/tabs.js"></script>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <!-- tabs : Home, Resume, About Me-->
 <body>
 <div class="container">
-	<div class="column-profile">
+	<div class="row profile">
+		<div class="column-profile">
 
-		<div class="profile-tabs">
-			<!--Left Side User profile-->
-			<div class="user-profile-pic">
-				<!-- user image-->
-				<img src="gallery/anthony-sharp.png" alt="">				
+			<div class="profile-tabs">
+				<!--Left Side User profile-->
+				<div class="user-profile-pic">
+					<!-- user image-->
+					<img src="gallery/anthony-sharp.png" alt="">				
+				</div>
+
+				<div class="profile-title-container">
+
+					<!--User Title-->
+					<div class="profile-title-name">
+						Anthony Sharp
+					</div>
+					<div class="current-school-title">
+						B.S in Computer Science <br>		
+						Missouri University of <br> Science and Technology <br>
+					</div>
+					<br>
+					<div class="future-title">
+						Programmer, data analytics and cyber security enthusiast
+					</div>
+				</div>
+			</div><br>
+			<!-- Tab links -->
+			<div class="tab">
+				<ul class="navigation">
+					<dl>
+						<a href="index.html" style="text-decoration: none">
+							<i class="glyphicon glyphicon-home"></i> 
+							<span>Home</span>
+						</a>
+					</dl>
+					<dl class="current">
+						<a href="#" style="text-decoration: none">
+							<i class="glyphicon glyphicon-folder-close"></i> 
+							<span>Project</span>
+						</a>
+					</dl>
+					<dl>
+						<a href="cv.html" style="text-decoration: none">
+							<i class="glyphicon glyphicon-file"></i> 
+							<span>Resume</span>
+						</a>
+					</dl>
+					<dl>
+						<a href="about.html" style="text-decoration: none">
+							<i class="glyphicon glyphicon-user"></i> 
+							<span>About This</span>
+						</a>
+					</dl>
+				</ul>			
 			</div>
 
-			<div class="profile-title-container">
-
-				<!--User Title-->
-				<div class="profile-title-name">
-					Anthony Sharp
-				</div>
-				<div class="current-school-title">
-					B.S in Computer Science <br>		
-					Missouri University of <br> Science and Technology <br>
+		</div>
+		<div class="mid-column">
+			<div class="profile-content">
+				<div class="project-tile">
+					<h2>2022</h2>
+					
+					<h3><strong>My Website (this one!)</strong></h3>
+					<i>July 20</i>
+					<p>
+						This is my personal website I made with HTML and CSS only. Saw a template on <a href="https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/">bootstrapMade</a>
+						and wanted to maka my website clean and simple. 
+						<br><br>
+						Feature working on adding: Mobile Mode, Dark Mode, Photo Gallery
+						<i>Languages/Technologies: HTML, CSS</i>
+						<br><br>
+						<i>GitHub: </i><a href="https://github.com/asharp211/anthonyvsharp.io">My Website</a>
+					</p>
 				</div>
 				<br>
-				<div class="future-title">
-					Programmer, data analytics and cyber security enthusiast
+				<div class="project-tile">
+					<h2>2021</h2>
+					<h3><strong>Mobile App (Senior Design Project)</strong></h3>
+					<i>August to December</i>
+					<div class="image-holder">
+						<img src="images/SmartCart.png" alt="">
+					</div>
+					<p>
+						<i>Languages/Technologies: Dart, HTML, Firebase</i>
+						<br><br>
+						On a development team to build a shopping cart application using Flutter, Angular, and 
+						Firebase. Scan or search food items from third-party database using API 
+						collection.	Located multiple grocery store that have the items from our shopping 
+						cart. Multiple user account to access their shopping cart from Firebase 
+						database.
+						<br><br>
+						<i>GitHub: </i><a href="https://github.com/jawillhoite/smartcart">Smart Cart</a>
+					</p>
 				</div>
-			</div>
-		</div><br>
-		<!-- Tab links -->
-		<div class="tab">
-			<ul class="navigation">
-				<dl>
-					<a href="index.html" style="text-decoration: none">
-						<i class="glyphicon glyphicon-home"></i> 
-						<span>Home</span>
-					</a>
-				</dl>
-				<dl class="current">
-					<a href="#" style="text-decoration: none">
-						<i class="glyphicon glyphicon-folder-close"></i> 
-						<span>Project</span>
-					</a>
-				</dl>
-				<dl>
-					<a href="cv.html" style="text-decoration: none">
-						<i class="glyphicon glyphicon-file"></i> 
-						<span>Resume</span>
-					</a>
-				</dl>
-				<dl>
-					<a href="about.html" style="text-decoration: none">
-						<i class="glyphicon glyphicon-user"></i> 
-						<span>About This</span>
-					</a>
-				</dl>
-			</ul>			
-		</div>
-
-	</div>
-	<div class="mid-column">
-		<div class="profile-content">
-			<div class="project-tile">
-				<h2>2022</h2>
+				<br>
+				<div class="project-tile">
+					<h2>2020</h2>
+					<h3><strong>Database SQL Project</strong></h3>
+					<i>March 20</i>
+					<p>
+						<i>Languages/Technologies: C#, MySQL</i>
+						<br><br>
+						Tax Filing Database: Build a multi-level interface for the front-end user for filing taxes to a SQL database.
+						Multiple users’ login to gain access their filing system. Using C# and MySQL to create the back-end database.
+						Track the users salary, tax percentages, and tax exemption benefits. The end user would log thier salary, and 
+						receipts to the database.
+					</p>
+				</div>
+				<br>
+				<div class="project-tile">
+					<h2>2019</h2>
+					<h3><strong>Docker</strong></h3>
+					<i>August to December</i>
+					<div class="image-holder">
+						<img src="images/docker-image.png" alt="">
+					</div>
+					<p>
+						Understanding the difference between virtualization and containerization, the problem 
+						of virtualization and how containers are solving it. As computational work becomes 
+						more essential to many  features of computational scientific-research, working 
+						with complex algorithms and rapid change in the computer environments making it 
+						able to product and grab results has become a real complicated and challenging.				
+					</p>
+					<h3><strong>OS Shell</strong></h3>
+					<i>August to December</i>
+					<p>
+						<i>Languages/Technologies: C++</i>
+						<br><br>
+						Emulate a basic core functionality of a Linux style shell using C++.
+						Create a Files and Folders with timestamp and permission.
+					</p>
+					<h3><strong>Microcontrollers Group Project</strong></h3>
+					<i>January to May</i>
+					<p>
+						<i>Languages/Technologies: Assembly</i>
+						<br><br>
+						First assembly project that involve low-level language to program a custom 
+						ATmega324PB Xplained board. We program the board to play music and a count down timer
+						in binary.					
+					</p>
+					
+				</div>
+				<br>
+				<div class="project-tile">
+					<h2>2018</h2> (early)
+					<h3><strong>EchoPi (Hackathon)</strong></h3>
+					<p>
+						Program a Raspberry Pi to emulated as a Amazon Echo at a Hackathon event. 
+						My team created few of our own command scripts to have the Amazon Echo speak 
+						back to us after giving it command. The one unique feature I added to 
+						project was if you ask the EchoPi "Do you want to play Global Thermonuclear 
+						War?" it changes the voice module and echos out<i> "That's a strange game. 
+						The only winning move is not to play. How about a nice game of chess?"</i> 
+					</p>
+				</div>
 				
-				<h3><strong>My Website (this one!)</strong></h3>
-				<i>July 20</i>
-				<p>
-					This is my personal website I made with HTML and CSS only. Saw a template on <a href="https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/">bootstrapMade</a>
-					and wanted to maka my website clean and simple. 
-					<br><br>
-					Feature working on adding: Dark Mode, Photo Gallery
-					<br><br>
-					<i>GitHub: </i><a href="https://github.com/asharp211/anthonyvsharp.io">My Website</a>
-				</p>
-			</div>
-			<br>
-			<div class="project-tile">
-				<h2>2021</h2>
-				<h3><strong>Mobile App (Senior Design Project)</strong></h3>
-				<i>August to December</i>
-				<div class="image-holder">
-					<img src="images/SmartCart.png" alt="">
-				</div>
-				<p>
-					<i>Languages/Technologies: Dart, HTML, Firebase</i>
-					<br><br>
-					On a development team to build a shopping cart application using Flutter, Angular, and 
-					Firebase. Scan or search food items from third-party database using API 
-					collection.	Located multiple grocery store that have the items from our shopping 
-					cart. Multiple user account to access their shopping cart from Firebase 
-					database.
-					<br><br>
-					<i>GitHub: </i><a href="https://github.com/jawillhoite/smartcart">Smart Cart</a>
-				</p>
-			</div>
-			<br>
-			<div class="project-tile">
-				<h2>2020</h2>
-				<h3><strong>Database SQL Project</strong></h3>
-				<i>March 20</i>
-				<p>
-					<i>Languages/Technologies: C#, MySQL</i>
-					<br><br>
-					Tax Filing Database: Build a multi-level interface for the front-end user for filing taxes to a SQL database.
-					Multiple users’ login to gain access their filing system. Using C# and MySQL to create the back-end database.
-					Track the users salary, tax percentages, and tax exemption benefits. The end user would log thier salary, and 
-					receipts to the database.
-				</p>
-			</div>
-			<br>
-			<div class="project-tile">
-				<h2>2019</h2>
-				<h3><strong>Docker</strong></h3>
-				<i>August to December</i>
-				<div class="image-holder">
-					<img src="images/docker-image.png" alt="">
-				</div>
-				<p>
-					Understanding the difference between virtualization and containerization, the problem 
-					of virtualization and how containers are solving it. As computational work becomes 
-					more essential to many  features of computational scientific-research, working 
-					with complex algorithms and rapid change in the computer environments making it 
-					able to product and grab results has become a real complicated and challenging.				
-				</p>
-				<h3><strong>OS Shell</strong></h3>
-				<i>August to December</i>
-				<p>
-					<i>Languages/Technologies: C++</i>
-					<br><br>
-					Emulate a basic core functionality of a Linux style shell using C++.
-					Create a Files and Folders with timestamp and permission.
-				</p>
-				<h3><strong>Microcontrollers Group Project</strong></h3>
-				<i>January to May</i>
-				<p>
-					<i>Languages/Technologies: Assembly</i>
-					<br><br>
-					First assembly project that involve low-level language to program a custom 
-					ATmega324PB Xplained board. We program the board to play music and a count down timer
-					in binary.					
-				</p>
 				
 			</div>
-			<br>
-			<div class="project-tile">
-				<h2>2018</h2> (early)
-				<h3><strong>EchoPi (Hackathon)</strong></h3>
-				<p>
-					Program a Raspberry Pi to emulated as a Amazon Echo at a Hackathon event. 
-					My team created few of our own command scripts to have the Amazon Echo speak 
-					back to us after giving it command. The one unique feature I added to 
-					project was if you ask the EchoPi "Do you want to play Global Thermonuclear 
-					War?" it changes the voice module and echos out<i> "That's a strange game. 
-					The only winning move is not to play. How about a nice game of chess?"</i> 
-				</p>
+			<div style="display: flex; justify-content: flex-end">
+				<i>
+					© 2022 - 2023 Anthony Sharp
+				</i>
 			</div>
-			
-			
 		</div>
 	</div>
-
 </div>
 
 
