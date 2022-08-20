@@ -1,7 +1,6 @@
 /* Style the tab */
 .tab {
   float: left;
-  /*overflow: hidden;*/
   border-radius: 10px;
   border: 1px solid #F8F8F8;
   font-size: 18px;
@@ -15,7 +14,7 @@
   border: none;
   outline: none;
   cursor: pointer;
-  padding: 14px 16px;
+  padding: 10px 16px;
   transition: 0.3s;
 }
   
@@ -77,4 +76,9 @@
   margin-right: auto;
   padding: 0px 0px 5px 0px;
   width: 40%;
+}
+
+.navigation {
+  float: left;
+  padding-left: 10px;
 }
