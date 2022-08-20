@@ -6,7 +6,8 @@ body{
 .container {
     margin-left: auto;
     margin-right: auto;
-    padding-top: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 /* Profile Tabs*/
@@ -58,16 +59,17 @@ body{
     font-weight: 400;
 }
 
+
+
 @media only screen and (max-width:800px) {
     /* For tablets: */
     .column-profile {
         width: 80%;
         padding: 0%;
+        padding-top: 30px;
     }
     .mid-column {
         width: 100%;
-    }
-    .tab{
     }
 }
 @media only screen and (max-width:500px) {
